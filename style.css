@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url('crip_fundo.jpg');
+  background-size: cover;
+  font-family: Didot, serif	;
+}
+
+.main {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  padding: 71px;
+  width: 34vw;
+  margin: auto;
+  color: rgb(248, 246, 246);
+  font-size: 60px;
+  
+}
+
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(253, 4, 4, 0.2);
+  background-color: #030000;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn {
+  border: 0;
+  color: rgb(248, 247, 247);
+  font-weight: bold;
+  background-color: rgba(7, 0, 6, 0.801);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.973);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+  color: black;
+}
